@@ -8,7 +8,7 @@
 
 2. Go to your repositories and find the one that you just forked
 
-3. Find the green button that says "Clone or Download", copy and paste the link
+3. Find the green button that says "Clone or Download", click it, copy and paste the link
 
 4. Go to your terminal, and go inside a directory that you want to put the project inside. If you're not sure what this means, here are a set of commands that you might find helpful (ignore the angle brackets, they are there to clarify that you're suppose to replace it). You can also skip all this and go directly to step 5. Let's assume our current location is "Desktop"
 + "mkdir <FILENAME>" makes a folder with the <FILENAME>, so for example, "mkdir Project" will create a new folder named Project in your current directory, which is "Desktop"
