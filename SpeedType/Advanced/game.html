@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speed Type</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main-container">
+		<div class="title-container">
+			<h1>Speed Type</h1>
+		</div>
+
+		<div class="word-container">
+			<h1 id="wordToType">Type this line to start</h1>
+		</div>
+
+		<div class="input-container">
+			<input id="wordInput"></input>
+		</div>
+
+		<div class="timer-container">
+			 <p><b>Time Left: </b><span id="timer">not started</span></p>
+		</div>
+
+		<div class="stats-container">
+			<p><b>Word Count: </b><span id="word-count">not started</span></p>
+			<p><b>Character Count: </b></span><span id="character-count">not started</p>
+			<p><b>Word per minute: </b><span id="wpm">not started</span></p>
+			<p><b>Character per minute: </b><span id="cpm">not started</span></p>
+		</div>
+
+		<div class="game-button-container">
+			<div class="back-to-menu-container">
+				<button id="back-to-menu-button" class="game-button"><a href="index.html">Back to Main Menu</a></button>
+			</div>
+
+			<div class="restart-container">
+				<button id="restart-button" class="game-button">Restart</button>
+			</div>
+		</div>
+		
+	</div>
+
+	<script src="js/util.js"></script>
+	<script src="js/timer.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>
+

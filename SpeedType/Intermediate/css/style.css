@@ -1,0 +1,35 @@
+/* Feel free to change any of these properties or add your own and see what they do! 
+	 Suggestion: Try changing the color and font-size
+*/
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.main-container {
+	width: 100%;
+	height: 100%;
+}
+
+.title-container {
+	text-align: center;
+	font-size: 24px;
+	color: orange;
+}
+
+.word-container {
+	text-align: center;
+	color: blue;
+}
+
+.input-container {
+	text-align: center;
+}
+
+.timer-container {
+	text-align: center;
+	margin-top: 10px;	
+}
+
+
